@@ -8,11 +8,11 @@ services:
     ports:
       - "7880:5173"
     command: [ "npm", "run", "dev" ]
-  backend:
-    build:
-      context: ./backend/
-      dockerfile: Dockerfile
-    ports:
-      - "7875:1010"
-    command: [ "php", "-S", "localhost:1010", "server.php" ]
+  # backend:
+  #   build:
+  #     context: ./backend/
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "7875:1010"
+  #   command: [ "php", "-S", "localhost:1010", "server.php" ]
   # database:

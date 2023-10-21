@@ -13,3 +13,10 @@ CREATE TABLE TB_CLIENT (
 	CL_PHONE VARCHAR(11) NOT NULL,
 	CL_GROUP ENUM('Bronze', 'Prata', 'Ouro', 'Diamante')
 );
+
+INSERT INTO TB_CLIENT (
+	CL_NAME, CL_EMAIL, CL_BIRTH, CL_PHONE, CL_GROUP
+) VALUES (
+	'Pedro', 'contatopedrohalves@gmail.com',
+	'2000-10-10', '14981838507', 'Bronze'
+);

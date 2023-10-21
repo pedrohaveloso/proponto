@@ -6,7 +6,7 @@ Projeto realizado no dia 21/10/2023.
 
 - [Tecnologias Usadas](#tecnologias-utilizadas);
 - [Rodando o projeto](#tecnologias-utilizadas);
-- [Imagens do projeto](#imagens-do-projeto);
+- [Imagens do site](#imagens-do-site);
 - [Documentações](#documentação);
 
 # Tecnologias utilizadas:
@@ -68,7 +68,10 @@ Após buildar, construa os containers:
 
 Pronto, o projeto (apenas o site até o momento) estará rodando na sua máquina.
 
-# Imagens do projeto.
+# Imagens do site.
+
+![Print 1](print_1.png)
+![Print 2](print_2.png)
 
 # Documentação.
 
@@ -181,3 +184,5 @@ As respectivas rotas para cada função:
     "id": "1"
 }
 ```
+
+---
